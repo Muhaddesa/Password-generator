@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    background-color: #1F2937;
+}
+.container{
+    
+    height: 550;
+    color: white;
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    
+
+}
+.card{
+    background-color: #2F3E53;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    border-radius: 3px;
+}
+.card h1, h2, p {
+    padding-left: 10px;
+}
+h2{
+    color: #55F991;
+    
+}
+.card button{
+    color: white;
+    background-color: #10B981;
+    border-radius: 3px;
+    border: none;
+    padding: 4px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+hr{
+    margin-top: 20px;
+   
+   
+}
+.new-passwords {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.new-passwords button {
+  padding: 8px 12px;
+  margin-top: 30px;
+  color: #10B981;
+  background-color: #273549;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+.showContent {
+    padding-top: 40px;
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-template-rows: 50px;
+   
+   
+}
+#content, #expression{
+    margin-left: 15px;
+   background-color: #273549;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    color: #10B981;
+    line-height: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
